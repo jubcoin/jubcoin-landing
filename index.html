@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JUB Coin – Built for Trust</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+      body {
+        background: radial-gradient(circle at top, #0d0d0d, #000);
+        font-family: 'Segoe UI', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="text-white overflow-x-hidden">
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center px-6 relative">
+      <img src="assets/jub-logo.png" alt="JUB Coin" class="w-36 h-36 animate-spin-slow mb-6" />
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Built for Trust.<br />Powered by Community.</h1>
+      <p class="text-gray-400 max-w-xl mb-6">A fixed-supply BEP-20 token on BNB Chain with zero tax, no mint, and locked ownership.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#" class="bg-green-400 hover:bg-green-300 text-black font-bold py-2 px-5 rounded-full shadow-lg">Buy on PancakeSwap</a>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-5 rounded-full border border-gray-600">View Whitepaper</a>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-5 rounded-full border border-gray-600">Check BscScan</a>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-5 rounded-full border border-gray-600">Join Telegram</a>
+      </div>
+    </section>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'spin-slow': 'spin 10s linear infinite',
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
